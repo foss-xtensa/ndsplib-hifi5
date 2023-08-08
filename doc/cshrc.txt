@@ -1,0 +1,12 @@
+#setenv LM_LICENSE_FILE 
+#alias make "/usr/xtensa/stools-8.1/bin/make"
+
+alias ri8 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RI-2021.8-linux/XtensaTools/config/; set path = (   /fac/vol11/audio/xtensa/XtDevTools/install/tools/RI-2021.8-linux/XtensaTools/bin $path); setenv XPLORER_W_AUTOMATION_PLUGIN /fac/vol11/audio/xtensa/Xplorer-9.0.17/xplorer"
+
+alias ri9 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RI-2022.9-linux/XtensaTools/config/; set path = (   /fac/vol11/audio/xtensa/XtDevTools/install/tools/RI-2022.9-linux/XtensaTools/bin $path); setenv XPLORER_W_AUTOMATION_PLUGIN /fac/vol11/audio/xtensa/Xplorer-9.0.17/xplorer"
+
+alias hifi5 "setenv XTENSA_CORE AE_HiFi5e_LE5_AO_FP"
+
+alias cores 'xt-run --show-config=cores'
+alias make "/usr/xtensa/stools-8.1/bin/make"
+
