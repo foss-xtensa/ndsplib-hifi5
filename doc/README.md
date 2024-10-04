@@ -15,7 +15,7 @@
   * source ~/.cshrc 
   * rj3
   * setenv XTENSA_CORE CORE_NAME     
-    Ex: setenv XTENSA_CORE AE_HiFi5e_LE7_AO_FP  
+    Ex: setenv XTENSA_CORE AE_HiFi5s_LE7_AO_FP  
 
 ## Compiling the Source Code: 
   * Navigate to the testdriver directory:   …/NDSP_HiFi5/build/project/xtclang/testdriver
@@ -28,13 +28,13 @@
 ## Running the executable: 
   ### Navigate to the bin directory: …/NDSP_HiFi5/build/bin
   ### Performance tests:
-  * xt-run testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -mips -sanity         
-  * xt-run testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -mips -brief 
-  * xt-run testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -mips -full   
+  * xt-run testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -mips -sanity         
+  * xt-run testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -mips -brief 
+  * xt-run testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -mips -full   
   ###	Functional tests:
-  * xt-run --turbo testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -func -sanity
-  * xt-run --turbo testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -func -brief
-  * xt-run --turbo testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -func -full
-  * xt-run --turbo testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -func -sanity -verbose 
-  * xt-run --turbo testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -func -sanity -fir -verbose 
-  * xt-run --turbo testdriver-AE_HiFi5e_LE7_AO_FP_llvm-Xtensa-release -func -brief -fir -iir -fft
+  * xt-run --turbo testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -func -sanity
+  * xt-run --turbo testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -func -brief
+  * xt-run --turbo testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -func -full
+  * xt-run --turbo testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -func -sanity -verbose 
+  * xt-run --turbo testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -func -sanity -fir -verbose 
+  * xt-run --turbo testdriver-AE_HiFi5s_LE7_AO_FP_llvm-Xtensa-release -func -brief -fir -iir -fft
