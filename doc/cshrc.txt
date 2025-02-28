@@ -3,9 +3,9 @@
 
 alias ri11 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RI-2023.11-linux/XtensaTools/config/; set path = (  /fac/vol11/audio/xtensa/XtDevTools/install/tools/RI-2023.11-linux/XtensaTools/bin $path); setenv XPLORER_W_AUTOMATION_PLUGIN /fac/vol11/audio/xtensa/Xplorer-10.1.11/xplorer"
 
-alias rj3 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RJ-2024.3-linux/XtensaTools/config/;   set path =(   /fac/vol11/audio/xtensa/XtDevTools/install/tools/RJ-2024.3-linux/XtensaTools/bin $path); setenv XPLORER_W_AUTOMATION_PLUGIN /fac/vol11/audio/xtensa/Xplorer-10.2.3/xplorer"
+alias rj4 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RJ-2024.4-linux/XtensaTools/config/;   set path =(   /fac/vol11/audio/xtensa/XtDevTools/install/tools/RJ-2024.4-linux/XtensaTools/bin $path); setenv XPLORER_W_AUTOMATION_PLUGIN /fac/vol11/audio/xtensa/Xplorer-11.1.4/xplorer"
 
-alias hifi5 "setenv XTENSA_CORE AE_HiFi5s_LE7_AO_FP"
+alias hifi5 "setenv XTENSA_CORE hifi5s_ao_7"
 
 alias cores 'xt-run --show-config=cores'
 alias make "/usr/xtensa/stools-8.1/bin/make"
